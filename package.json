@@ -7,6 +7,7 @@
     "node": ">=20.10.0"
   },
   "scripts": {
+    "test":"vitest",
     "start": "concurrently \"json-server --watch datasets/db.json --port 3001\" \"vite --port 3000\"",
     "build": "vite build",
     "lint": "eslint .",
